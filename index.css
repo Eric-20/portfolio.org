@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
+    /* font-family: 'Cairo', sans-serif; */
+    
 }
 
 html{
@@ -52,8 +55,8 @@ html{
     
 }
 .nav ul li a{
-    color: #b9a396;
-    font-size: 22px;
+    color: #6d6875;
+    font-size: 20px;
     text-decoration: none;
     padding: 5px;
     text-align: center;
@@ -62,16 +65,16 @@ html{
 }
 
 .nav ul li a:hover{
-    color: #6d6875;
+    color: #264653;
 }
 
 
 .buttons a{
-    width: 200px;
+    width: 230px;
     height: 50px;
     background-color: #264653;
     text-align: center;
-    /* margin-top: 50px; */
+    padding-right: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,11 +83,17 @@ html{
     top: 60%;
     left: 20%;
     margin-top: 150px;
-    color: white;
+    color: #b9a396;
     text-decoration: none;
     font-size: 20px;
     transition: all ease-in-out 0.3s;
     box-shadow: 2px 5px 5px #6d6875ce;
+}
+
+.buttons i{
+    margin-top: -1px;
+    margin-right: 10px;
+    transition: all ease-in-out 0.3s;
 }
 
 
@@ -98,15 +107,20 @@ html{
 
 } 
 
+.buttons i:hover{
+    color: #264653;
+    transition: all ease-in-out 0.3s;
+}
+
 
 
 .image{
     float: right;
-    margin-right: 220px;
+    margin-right: 250px;
     margin-top: 150px;
     background-color: #f5ebe0;
     border-radius: 200px;
-    box-shadow: 5px 10px 60px #6d6875ab;
+    box-shadow: 5px 10px 60px #6d6875cc;
 }
 
 .image img{
@@ -124,7 +138,7 @@ html{
     font-size: 22px;
     padding-top: 20px;
     padding-left: 10px;
-    color: #d5bdaf;
+    color: #b9a396;
 }
 
 .text h1{
@@ -180,7 +194,7 @@ html{
     align-items: center;
     border-radius: 100px;
     margin-top: 30px;
-    color: white;
+    color: #b9a396;
     text-decoration: none;
     font-size: 20px;
     transition: all ease-in-out 0.3s;
@@ -198,7 +212,7 @@ html{
 .lastcall p{
     color: #6d6875;
     text-align: justify;
-    margin-left: 10px;
+    margin-left: 25px;
 }
 
 
@@ -251,7 +265,7 @@ html{
     border-radius: 100px;
     margin-top: 30px;
     margin-left: 55px;
-    color: white;
+    color: #b9a396;
     text-decoration: none;
     font-size: 20px;
     transition: all ease-in-out 0.3s;
@@ -269,6 +283,7 @@ html{
 .lions p{
     color: #6d6875;
     text-align: justify;
+    margin-left: 10px;
 }
 
 
@@ -323,7 +338,7 @@ html{
     border-radius: 100px;
     margin-top: 30px;
     margin-left: 55px;
-    color: white;
+    color: #b9a396;
     text-decoration: none;
     font-size: 20px;
     transition: all ease-in-out 0.3s;
@@ -414,6 +429,10 @@ i,.fa{
 
 .address a{
     color: #d5bdaf;
+}
+
+.address p{
+    float: right;
 }
 
 .address a:hover{
